@@ -1,0 +1,101 @@
+body{
+    background-color: #fdde7e;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.block{
+    height: 100%;
+    width: 33.333%;
+    background: #fdfdfd;
+    margin: 5rem;
+}
+.heading{
+    display: block;
+    margin-right: 155px;
+    margin-left: 130px;
+    width: 52px;
+    margin-bottom: 25px;
+    color: #02995b;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+.image{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 37px;
+}
+/*.p1{*/
+/*    font-family: "Trebuchet MS", Arial, sans-serif;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    font-size: xx-large;*/
+/*}*/
+.text {
+    color: #333333;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 37px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.text1{
+    font-family: "Lato Light";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 11px;
+}
+.text2 {
+    font-family: "Lato Light";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 40px;
+}
+.heading1{
+    display: block;
+    margin-right: 155px;
+    margin-left: 120px;
+    width: 52px;
+    margin-bottom: 25px;
+    color: #02995b;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+.container {
+    float: left;
+}
+.container:hover .block {
+    transform: scale(0.9);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+.container .block:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
